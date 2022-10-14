@@ -7,6 +7,12 @@ The Suomi National Polar-orbiting Partnership (or Suomi NPP) satellite collects 
 
 The last dataset is the Brazilian daily energy, where no open sources are available. Nevertheless, the Electric Energy Trading Chamber (CCEE in Portuguese) — a Brazilian public agency related to the Ministry of Energy — promotes auctions in the Brazilian open energy market hourly. These auctions occur in a secondary market, where prices and demand can vary to match the supply in each location. Therefore, the trade records are freely available on its website, including all classes (generation, commercialization, and distribution). We aggregated these two  daily datasets for brazilian cities of Porto Alegre between May 2021 and October 2021 as a proxy for the energy consumption in the period.
 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/38505459/185278031-9df3c9f9-d81c-4acd-a4cd-c49b2fa27a40.png" width="400">
+</p>
+
+
 ## Methods and Results
 
 The preprocessing of the images is out of the scope of this repository. But, in a nutshell, the previous parts includes: dowloading the images, specifying the Coordinate Reference Systems, applying a symbology to enchance contrast and, cutting the images to the specific area. 
