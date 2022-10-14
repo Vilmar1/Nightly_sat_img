@@ -13,7 +13,7 @@ The last dataset is the Brazilian daily energy, where no open sources are availa
 </p>
 
 
-## Methods and Results
+## Methods
 
 The preprocessing of the images is out of the scope of this repository. But, in a nutshell, the previous parts includes: dowloading the images, specifying the Coordinate Reference Systems, applying a symbology to enchance contrast and, cutting the images to the specific area. 
 
@@ -23,6 +23,8 @@ For this specific objective, diferent types of CNNs architectures were tested. T
 
 The hiperparameters used were: `test_size=.25`, `batch_size=50`, `epochs=60`. In both convolutional layers, we used `filters=32`, `kernel_size=2`, `activation='relu'`. The network is optimized with `adam` and corrected by the mean squared loss. To avoid overfitting, an Early Stopping phase is applied in the validation loss with `patience=5`. 
  
+## Results
+
 The results were achieved by using the Mean Absolute Percentage Error to avoid misconceptions when comparing cities with diferent sizes. This metric achieved 5% of error in both cities, with results varying arround this value due to stochasticity.
  
  Obs.: there are commented instructions in the first lines of the code if you want to use a GPU.
